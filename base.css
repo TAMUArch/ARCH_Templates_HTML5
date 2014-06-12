@@ -1,0 +1,295 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+background-image: -webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+background-image: linear-gradient(to bottom,#4E4E4E 0,#000000 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+}
+
+#footer a:focus {
+color: #FFFFFF;
+background-color: transparent;
+}
+
+#footer a{
+color: #999;
+background-color: transparent;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+body {
+font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+background-color: transparent;
+color: #333;
+-webkit-font-smoothing: antialiased;
+}
+
+ .navbar .container a.tamu-logo-small {
+text-indent: -999999px;
+display: block;
+background-image: url('tamu-small.png');
+margin: 14px 10px 0px -14px;
+width: 25px;
+height: 20px;
+float: left;
+}
+
+.navbar-default {
+background-color: #505050;
+border-color: #424242;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #999;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+color: #FFFFFF;
+background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+color: #FFFFFF;
+background-color: transparent;
+}
+
+.navbar-default {
+background-image: -webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+background-image: linear-gradient(to bottom,#4E4E4E 0,#000000 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: #e7e7e7;
+float: right;
+margin-right: -15px;
+}
+
+#header-row > a.pull-left.tamu-logo-small {
+background: url('coa.png') no-repeat;
+float: right;
+width: 246px;
+max-width: 39%;
+background-size: 100% auto;
+height: 40px;
+/*margin: 5px 0px 5px 5px;*/
+}
+
+#header-row > a.brand.brand-hidden{
+width: 316px;
+background: url('tamu.png') no-repeat;
+max-width: 45%;
+background-size: 64% auto;
+float: left;
+height: 32px;
+/* margin: 5px 0px 0px 0px; */
+float: right;
+background-position-x: 115px;}
+
+.menu-tabs {
+background-color: #313133;
+margin-bottom: 0;
+border-width: 0;
+}
+
+.menu-tabs li {
+margin-bottom: -2px;
+}
+
+.menu-tabs li a {
+padding: 0 15px;
+margin-right: 2px;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+color: white;
+text-transform: lowercase;
+border: 0;
+font-size: 16px;
+font-weight: normal;
+line-height: 44px;
+}
+
+.tab-content>.tab-pane, .pill-content>.pill-pane {
+display: none;
+}
+
+.menu-tab-content ul>li>a {
+display: block;
+text-transform: lowercase;
+padding: 0 15px;
+margin-right: 2px;
+font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+font-weight: normal;
+line-height: 30px;
+color: #ccc;
+}
+
+.menu-tab-content ul>li {
+float: left;
+line-height: 19px;
+}
+
+.menu-tab-content ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.nav-tabs>li>a:hover {
+border-color: #eee #eee #ddd;
+color: black;
+}
+
+#subheader {margin-top: 40px;}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #777;
+  text-align: center;
+  background-color: #e5e5e5; /* Old browsers */
+  background-image:    -moz-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Chrome 10+,Safari 5.1+ */
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #ddd;
+  background-image: none;
+  box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/* ---- Upcoming Events ---- */
+
+.upcoming-events .event .date .day {
+font-size: 28px;
+font-weight: bold;
+line-height: 28px;
+}
+
+.upcoming-events .event .date {
+background-color: #f1e5b1;
+background-image: -moz-linear-gradient(top,#f4ebc5,#eddd93);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#f4ebc5),to(#eddd93));
+background-image: -webkit-linear-gradient(top,#f4ebc5,#eddd93);
+background-image: -o-linear-gradient(top,#f4ebc5,#eddd93);
+background-image: linear-gradient(to bottom,#f4ebc5,#eddd93);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff4ebc5',endColorstr='#ffeddd93',GradientType=0);
+text-transform: uppercase;
+text-align: center;
+padding: 4px 8px;
+position: absolute;
+top: 50%;
+left: 0;
+margin-left: 0;
+margin-top: -28px;
+width: 36px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: normal;
+line-height: 20px;
+}
+
+
+
