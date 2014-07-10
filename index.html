@@ -88,14 +88,22 @@
 html {
   position: relative;
   min-height: 100%;
+
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 20px;
+  
 }
 #footer {
-  position: absolute;
-  bottom: 0;
+
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
@@ -106,6 +114,8 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
+
+
 
 body > .container {
   padding: 60px 15px 0;
@@ -186,37 +196,248 @@ code {
 <div class="form-group"><input class="form-control" placeholder="Search" type="text" /></div>
 <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button></form></div>
 </div>
+<a class="pull-left tamu-logo-small" href="http://www.tamu.edu/"></a> <a class="brand brand-hidden" href="http://www.arch.tamu.edu/"></a>
 </div>
 <!-- end header nav -->
 
+<!-- begin brand banner -->
+
+<div class="row header-row" style="margin-top: 80px;">
+        <div class="col-md-12 header" role="banner">
+          
+          <a href="http://www.tamu.edu" class="tamu-logo logo">Texas A&amp;M University</a>
+          <a href="/" class="site-logo logo">College of Architecture</a>
+          
+        </div>
+      </div>
+
+
+<!-- end brand banner -->
+
 <!-- begin sub nav -->
-<div class="container">
-<div class="row" id="header-row">
-<div class="col-md-12 header" role="banner"></div>
-<a class="pull-left tamu-logo-small" href="http://www.tamu.edu/"></a> <a class="brand brand-hidden" href="http://www.arch.tamu.edu/"></a>
-<div class="masthead">
-<ul class="nav nav-justified" id="subheader">
-<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">inside the college</a>
-<ul class="dropdown-menu">
-<li><a href="#">contact us</a></li>
-<li><a href="#">getting here</a></li>
-<li><a href="#">history</a></li>
-<li><a href="#">research</a></li>
-<li><a href="#">programs offered</a></li>
-<li><a href="#">service units</a></li>
-<li><a href="#">employment</a></li>
-<li><a href="#">intranet</a></li>
-</ul>
-</li>
-<li><a href="#">academics</a></li>
-<li><a href="#">prospective students</a></li>
-<li><a href="#">news</a></li>
-<li><a href="#">our community</a></li>
-<li><a href="#">diversity</a></li>
-</ul>
-</div>
-</div>
-</div>
+<nav class="row">
+        <div class="span12 site-top-menu" role="navigation">
+          
+<nav class="tabbable">
+  <ul class="nav nav-tabs menu-tabs">
+    
+    <li class="">
+      <a href="/inside/" data-toggle="menu-tab" data-target="#menu-content-1832">Inside the College</a>
+    </li>
+    
+    <li class="">
+      <a href="/academics/" data-toggle="menu-tab" data-target="#menu-content-1897">Academics</a>
+    </li>
+    
+    <li class="active">
+      <a href="/prospective/" data-toggle="menu-tab" data-target="#menu-content-1947">Prospective Students</a>
+    </li>
+    
+    <li class="">
+      <a href="/news/" data-toggle="menu-tab" data-target="#menu-content-1962">News</a>
+    </li>
+    
+    <li class="">
+      <a href="/community/" data-toggle="menu-tab" data-target="#menu-content-1983">Our Community</a>
+    </li>
+    
+    <li class="">
+      <a href="/diversity/" data-toggle="menu-tab" data-target="#menu-content-2514">Diversity</a>
+    </li>
+    
+  </ul>
+  <div class="tab-content menu-tab-content">
+    
+    <div id="menu-content-1832" class="tab-pane">
+      
+      <ul class="menu-tabs-child">
+        
+        <li class="">
+          <a href="/inside/contact-us/">Contact Us</a>
+        </li>
+        
+        <li class="">
+          <a href="/inside/getting-here/">Getting Here</a>
+        </li>
+        
+        <li class="">
+          <a href="/inside/history/">History</a>
+        </li>
+        
+        <li class="">
+          <a href="/inside/research/">Research</a>
+        </li>
+        
+        <li class="">
+          <a href="/academics/">Programs Offered</a>
+        </li>
+        
+        <li class="">
+          <a href="/inside/services/">Service Units</a>
+        </li>
+        
+        <li class="">
+          <a href="http://intranet.arch.tamu.edu/">Intranet</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+    
+    <div id="menu-content-1897" class="tab-pane">
+      
+      <ul class="menu-tabs-child">
+        
+        <li class="">
+          <a href="/academics/departments/">Departments</a>
+        </li>
+        
+        <li class="">
+          <a href="/academics/student-forms/">Student Forms</a>
+        </li>
+        
+        <li class="">
+          <a href="/academics/university-studies/">University Studies</a>
+        </li>
+        
+        <li class="">
+          <a href="/academics/student-services/">Student Services</a>
+        </li>
+        
+        <li class="">
+          <a href="/academics/graduate-certificates/">Graduate Certificates</a>
+        </li>
+        
+        <li class="">
+          <a href="/academics/study-abroad/">International</a>
+        </li>
+        
+        <li class="">
+          <a href="/prospective/scholarships/">Scholarships</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+    
+    <div id="menu-content-1947" class="tab-pane active">
+      
+      <ul class="menu-tabs-child">
+        
+        <li class="">
+          <a href="/prospective/undergraduate/">Undergraduate</a>
+        </li>
+        
+        <li class="">
+          <a href="/prospective/graduate/">Graduate</a>
+        </li>
+        
+        <li class="">
+          <a href="/prospective/resources/">University Resources</a>
+        </li>
+        
+        <li class="">
+          <a href="/prospective/scholarships/">Scholarships</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+    
+    <div id="menu-content-1962" class="tab-pane">
+      
+      <ul class="menu-tabs-child">
+        
+        <li class="">
+          <a href="http://one.arch.tamu.edu/">Newsletter</a>
+        </li>
+        
+        <li class="">
+          <a href="http://tamu-arch.imodules.com/s/1436/gid14arch/index.aspx?sid=1436&amp;gid=14&amp;pgid=1196&amp;cid=2662&amp;post_id=0">Update</a>
+        </li>
+        
+        <li class="">
+          <a href="http://one.arch.tamu.edu/class-acts/">Class Acts</a>
+        </li>
+        
+        <li class="">
+          <a href="https://one.arch.tamu.edu/news/2012/4/30/calendar/">Calendar of Events</a>
+        </li>
+        
+        <li class="">
+          <a href="/news/camparch/">Camp Arch</a>
+        </li>
+        
+        <li class="">
+          <a href="/news/event-scheduling/">Event Scheduling</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+    
+    <div id="menu-content-1983" class="tab-pane">
+      
+      <ul class="menu-tabs-child">
+        
+        <li class="">
+          <a href="/community/student-organizations/">Student Organizations</a>
+        </li>
+        
+        <li class="">
+          <a href="/community/formerstudents/">Former Students/Friends</a>
+        </li>
+        
+        <li class="">
+          <a href="/directory/">Directory</a>
+        </li>
+        
+        <li class="">
+          <a href="/community/invest/">Invest in the College</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+    
+    <div id="menu-content-2514" class="tab-pane">
+      
+      <ul class="menu-tabs-child">
+        
+        <li class="">
+          <a href="/diversity/goals/">Goals</a>
+        </li>
+        
+        <li class="">
+          <a href="/diversity/recruitment/">Recruitment</a>
+        </li>
+        
+        <li class="">
+          <a href="/diversity/news/">News &amp; Events</a>
+        </li>
+        
+        <li class="">
+          <a href="/diversity/resources/">Resources</a>
+        </li>
+        
+        <li class="">
+          <a href="/diversity/dialogo/">Dialogo 2013</a>
+        </li>
+        
+        <li class="">
+          <a href="/diversity/hackathon/">Hackathon</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+    
+  </div>
+</nav>
+
+        </div>
+      </nav>
+
 <!-- end sub nav -->
 
 
@@ -267,9 +488,9 @@ code {
         </div><!-- /.carousel -->
 
         <div class="row" style="margin-left: 0px;">
-          <div class="col-sm-8">
+          <div class="col-sm-8" >
             <h1>Latest News</h1>
-
+          <div style="overflow-y: scroll; height:345px;">  
           <div style="margin: 15px 0px 0px -15px;">
             <div class="col-md-2">
               <a href="#" class="thumbnail">
@@ -374,13 +595,13 @@ code {
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-default btn-xs" href="#" role="button">View details &raquo;</a></p>
           </div><!--/span-->
-
+        </div>
         </div>
         <div class="col-sm-4">
           <h1>Upcoming Events</h1>
           <aside class="upcoming-events">
             <div class="event">
-              <div class="date">
+              <div class="date" style="visibility: hidden;">
                 <div class="day"></div>
                 <div class="month"></div>
               </div>
